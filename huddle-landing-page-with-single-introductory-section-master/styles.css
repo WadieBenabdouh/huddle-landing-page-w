@@ -5,28 +5,81 @@
 
 
 
-body{
-    /* background-color: Violet; */
+body {
+    background-color: blueviolet;
     background-image: url('images/bg-desktop.svg');
+
 }
 
-.huddle-logo{
+.huddle-logo {
     width: 10em;
     padding-left: 3em;
     padding-top: 2em;
 }
 
-.vice{
+.vice {
     display: flex;
     padding-left: 2em;
+    gap: 3em;
 }
 
-.Capitain{
+
+.captain {
+    padding-top: 2em;
+}
+
+
+
+.team-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400, 600;
+    color: aliceblue;
+}
+
+
+.para-part {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+
+.bomb {
+    padding: 1em 3em;
+    border-radius: 3em;
+    border: none;
+    background-color: aliceblue;
+    color: purple;
+    transition: all .3s;
+
+}
+
+
+.bomb:hover {
+    color: aliceblue;
+    background-color: violet;
+    cursor: pointer;
+}
+
+
+
+.social-apps {
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2em;
+    gap: 1em;
 }
 
 
+.social-apps i{
+    color: aliceblue;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: .5rem .5rem;
+}
 
 
+.social-apps i :hover{
+
+}
 
