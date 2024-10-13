@@ -11,10 +11,9 @@ body {
 
 }
 
-.huddle-logo {
-    width: 10em;
-    padding-left: 3em;
-    padding-top: 2em;
+.huddle-logo img {
+    width: 8em;    
+    padding: 2em 4em;
 }
 
 .vice {
@@ -79,7 +78,22 @@ body {
 }
 
 
-.social-apps i :hover{
-
+.social-apps i:hover{
+    color: rgb(246, 120, 237);
 }
+
+/* ---------media queries----------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
