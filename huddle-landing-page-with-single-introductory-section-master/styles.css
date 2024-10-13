@@ -85,7 +85,37 @@ body {
 /* ---------media queries----------- */
 
 
+@media screen and (min-width:412px) and (max-width:869px) {
+    
+    /* .huddle-logo {
+        padding-bottom: 
+    } */
 
+
+    .huddle-logo img {
+        width: 12em;
+    }
+
+
+    .vice {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+    }
+
+
+    .leader {
+        max-width: 50%;
+    }
+
+    .leader img {
+        width: 320px;
+    }
+
+
+
+
+}
 
 
 
