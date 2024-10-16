@@ -87,14 +87,12 @@ body {
 
 @media screen and (min-width:412px) and (max-width:869px) {
     
-    /* .huddle-logo {
-        padding-bottom: 
-    } */
+   
 
 
-    .huddle-logo img {
+    /* .huddle-logo img {
         width: 12em;
-    }
+    } */
 
 
     .vice {
@@ -104,26 +102,23 @@ body {
     }
 
 
-    .leader {
-        max-width: 50%;
-    }
 
     .leader img {
         width: 320px;
     }
-
-
-    .captain {
-        max-width: 50%;
-        padding-left: 2.5em;
-    }
+    
 
 
     .team-title {
-        width: 10em;
+        width: 420px;
     }
 
 
+    .social-apps {
+        padding-right: 9em;
+        padding-top: 10em;
+        
+    }
 
 
 }
